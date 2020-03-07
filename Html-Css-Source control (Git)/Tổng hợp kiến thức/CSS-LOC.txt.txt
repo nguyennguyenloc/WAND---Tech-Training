@@ -1,0 +1,235 @@
+	
+	Bộ chọn:	- tên thẻ
+			- .name_class nếu dùng class
+			- #.name_id nếu dùng id
+			- * ảnh hưởng đến toàn bộ thẻ HTML
+
+	Cú pháp:  tên bộ chọn{thuộc tính:giá trị;}
+
+	Cách chèn CSS: - sử dụng link dẫn đến file CSS:
+			<link rel="stylesheet" type="text/css" href="file.css">
+		 	- sử dụng trong thẻ style
+			<style>
+				tên bộ chọn{
+				thuộc tính: giá trị;
+				};
+			</style>
+			- chèn trực tiếp trong thẻ:
+			<p style="thuộc tính:giá trị";>Nội dung</p>
+
+	Comments: 	<!-- -->
+
+	Color:		- color: red;
+			- color: #ff0000;
+			- color: #f00
+			- color: hsl(0, 100%, 50%)
+			- color: rgb(255,99,71)
+			- color: rgba(255,99,71,1-độ mờ từ 0 ->1 )
+
+	Background:	- background-color
+			- background-image: url("/");
+			- background-blend-mode: chế độ trộn hình ảnh vào màu nền
+			- background-repeat: hình ảnh lặp đi lặp lại
+			- background-position: vị trí của hinhd ảnh
+			- background-attachment: thiết lập hình ảnh cuộn theo thanh cuốn hay không
+			- background-clip: chỉ định khu vực để tô màu
+			- background-orgin: định vị vị trí các hình nền
+			- background-size: kích thước của hình nền
+				background: #ffffff url("img_tree.png") no-repeat right top;
+
+	Border:		- border-style: kiểu đường viền cho 4 cạnh
+				border-style: top bottom left right;	
+			- border-spacing: khoảng cách giữa các đường viền
+			- border-collapse: có cho phép tồn tại khoảng cách giữa các đường viền hay không		
+			- border-width: độ dày của đường viền
+			- border-color: màu sắc đường viền
+			- border-radio: góc vuông ở các đỉnh
+				p {
+				border: 2px solid red;
+				border-radius: 5px;
+				}
+			- border-bottom-left-radius: đường viền phía dưới góc trái
+			- border-bottom-style: thiết lập kiểu đường viền phía dưới
+			- border-bottom-width: thiết lập độ rộng của đường viền phía dưới
+			- border-image: thiết lập tất cả thuộc tính của border-image
+				border-image: source slice width outset repeat|initial|inherit;
+
+	outline:	- width 
+			- color 
+			- shorthand 
+			- offset
+
+	Box-decoration-break: 	thiết lập các thuộc tính, hiển thị nửa hộp
+
+	box-shadow:	đổ bóng cho hộp
+	
+	bottom:		thuộc tính của position so với đường viền đưới
+
+	clear: 		cho phép phần tử nổi lên bên trái, phải hoặc không
+
+	clip:
+
+	display:	none,inline, block, inline-block
+
+	float:		nổi phần tử
+
+	height:		chiều cao
+	width
+
+	left:		vị trí bên trái
+	right, top, bottom
+
+	Margin:		khoảng cách của nội dung so với border
+
+	Padding:	vùng đệm đường viền so với xung quanh
+
+	Overflow: 	nội dung tràn ra ngoài phần tử hộp
+
+	visibility:	hiển thị hoặc không hiển thị phần tử
+			visible:hiển thị
+			hidden, collapse: ẩn
+
+	vertical-align: sắp xếp nội dung theo một phần tử
+
+	z-index:	thứ tự xếp chồng của phần tử position
+
+	order:		thứ tự của các mục
+
+	text-decoration: -color
+			 -line
+			 -style
+	text-shadow
+	text-orientation
+	text-underline-position	
+	text-combine-upright
+	unicode-bidi
+	writing-mode
+
+	align-content
+	align-items
+	align-self
+
+	flex
+	flex-basis
+	flex-direction
+	flex-flow
+	flex-grow
+	flex-shrink
+	flex-wrap
+	justify-content
+
+	hanging-punctuation
+
+	hyphens:	tách từ cải thiện bố cục
+
+	letter-spacing
+
+	line-spacing
+	line-height
+
+	overflow-wrap: 	ngắt ngăn cản việc tràn
+
+	tab-size
+
+	text-align
+	text-align-last
+	text-combine-upright
+	text-indent
+	text-justify
+	text-transform
+
+	white-space
+
+	word-break
+	word-spacing
+	word-wrap
+
+	unicode-bidi
+	writing-mode
+
+	font:		-@font-face
+			-family
+			-size
+			-style
+			-stretch
+			-weight
+			-variant
+
+	caption-side:	vị trí của cap(top, bottom)
+			
+	empty-cells:	hiển thị ô trống hay không
+
+	table-layout:	bố trí bảng
+
+	counter-increment: thêm counter
+
+	counter-reset:	thiết lập counter
+	list-style
+	list-style-image
+	list-style-position
+	list-style-stype
+			
+	@keyframes
+	animation:		chuyển động
+	animation-name
+	animation-duration
+	animation-delay
+	animation-iteration-count
+	animation-direction
+	animation-timing-function
+	animation-fill-mode
+	animation
+
+	backface-visibility:	có hay không được nhìn thấy một phần tử nào đó
+	perspective:		xác định chiều sâu
+	perspective-origin:	vị trí của phần tử 3D
+
+	transform:		chuyển đổi hình ảnh đến một phần tử
+	transform-origin:
+	transform-style:
+
+	transition
+	transition-delay
+	transition-duration
+	transition-property
+	transition-timing-function
+	transition-delay
+
+	direction
+	
+	break:			xử lý ngắt trang
+				- after
+				- before
+				- inside
+
+	column:			cột
+				- count
+				- fill 
+				- gap 
+				- rule 
+				- span 
+				- width
+
+	filter:			xác định hiệu ứng ( làm mờ hoặc chuyển đổi màu sắc) so với thuộc tính ban đầu
+
+	grid:			- area 
+				- auto 
+				- column 
+				- gap 
+				- row 
+				- template
+
+	ĐƠN VỊ ĐO:
+
+	- %
+	- cm 
+	- em 
+	- ex 
+	- in 
+	- mm 
+	- pc 
+	- pt 
+	- px 
+	- vh 
+	- vw 
+	- vmin
