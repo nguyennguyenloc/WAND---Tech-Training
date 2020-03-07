@@ -1,0 +1,92 @@
+    .card-img-overlay {
+        position: absolute;
+        text-align: center;
+        padding: 300px 0;
+    }
+    
+    .about-img {
+        margin: auto 0;
+    }
+    
+    .nav-header {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    header.masthead {
+        position: relative;
+        width: 100%;
+        color: white;
+        background: url("../img/sliderr.png");
+        background-size: cover;
+    }
+    
+    .col-md {
+        height: 70px;
+        width: 70px;
+        background: black;
+        border-radius: 50px;
+        line-height: 65px;
+        font-size: 30px;
+        color: white;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    
+    .bg-grid {
+        background-image: url("img/test.png");
+        background-position: center;
+        background-color: #f0f0f5;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-position: top center;
+        padding: 100px 0;
+    }
+    
+    .carousel-area {
+        background-color: #505cfd;
+        padding: 100px 0;
+    }
+    
+    .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+    }
+    
+    .carousel-item {
+        background-color: #505cfd;
+        height: 300px;
+        width: 100%;
+    }
+    
+    footer {
+        padding: 100px 0;
+    }
+    
+    .btn-primary {
+        border-radius: 50px;
+    }
+    
+    .contactme {
+        padding: 50px 0;
+    }
+    
+    .contactme input,
+    .contactme textarea {
+        border: none;
+        border-bottom: 2px solid #ccc;
+        border-radius: 0;
+    }
+    
+    .title-form {
+        padding: 50px 0;
+    }
+    
+    .aboutme {
+        padding: 100px 0;
+    }
