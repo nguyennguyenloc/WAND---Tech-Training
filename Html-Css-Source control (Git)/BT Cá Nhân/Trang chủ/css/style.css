@@ -1,0 +1,124 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.about {
+    text-align: center;
+    padding: 30px;
+}
+
+.text-aboutme {
+    color: #818181;
+}
+
+.about-img {
+    margin: auto 0;
+}
+
+.nav-header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.col-md {
+    height: 70px;
+    width: 70px;
+    background: black;
+    border-radius: 50px;
+    line-height: 65px;
+    font-size: 30px;
+    color: white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.bg-grid {
+    background-image: url("img/test.png");
+    background-position: center;
+    background-color: #f0f0f5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    padding: 100px 0;
+}
+
+.carousel-area {
+    background-color: white;
+    padding: 100px 0;
+}
+
+footer {
+    padding: 100px 0;
+}
+
+.btn-primary {
+    border-radius: 50px;
+}
+
+.title-form {
+    padding: 50px 0;
+}
+
+.aboutme {
+    padding: 100px 0;
+}
+
+.a {
+    margin: 15px 0;
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.page-footer {
+    background-color: #222222;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #181818;
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: #fff;
+}
+
+footer.page-footer a {
+    color: #fff;
+}
+
+.hr{
+    background-color: white;
+}
+
+.icon {
+    width: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    margin: 15px;
+    text-align: center;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background: #fff;
+    color: #333;
+}
