@@ -1,3 +1,24 @@
+.carousel-area {
+    background-color: #505cfd;
+    padding: 100px 0;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    background-color: #505cfd;
+    height: 300px;
+    width: 100%;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
 footer.page-footer .footer-copyright {
     overflow: hidden;
     color: rgba(255, 255, 255, 0.6);
@@ -16,7 +37,6 @@ footer.page-footer a {
 .fa-facebook-f,
 .fb {
     width: 30px;
-    width: 30px;
     font-size: 20px;
     border-radius: 35px;
     -webkit-border-radius: 35px;
@@ -29,7 +49,6 @@ footer.page-footer a {
 
 .fa-twitter,
 .tw {
-    width: 30px;
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
@@ -44,7 +63,6 @@ footer.page-footer a {
 .fa-google-plus-g,
 .gg {
     width: 30px;
-    width: 30px;
     font-size: 20px;
     border-radius: 35px;
     -webkit-border-radius: 35px;
@@ -57,7 +75,6 @@ footer.page-footer a {
 
 .fa-linkedin-in,
 .in {
-    width: 30px;
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
