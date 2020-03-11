@@ -1,22 +1,40 @@
+.font-italic {
+    font-style: italic!important;
+}
+
 .carousel-area {
-    background-color: #505cfd;
+    background-color: #e5eaf7;
     padding: 100px 0;
 }
 
 .carousel-indicators li {
     width: 20px;
     height: 20px;
+    background-color: #7492ec;
     border-radius: 100%;
 }
 
 .carousel-item {
-    background-color: #505cfd;
+    background-color: #e5eaf7;
     height: 300px;
     width: 100%;
 }
 
+.carousel-inner p {
+    color: #99aade;
+}
+
+.text-carousel {
+    color: #7492ec;
+}
+
+.text-carousel p {
+    color: #99aade;
+}
+
 .contact {
     padding: 50px 0;
+    background-color: #fff;
 }
 
 footer.page-footer .footer-copyright {
