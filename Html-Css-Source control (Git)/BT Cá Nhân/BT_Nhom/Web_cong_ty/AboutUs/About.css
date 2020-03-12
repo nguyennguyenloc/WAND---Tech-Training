@@ -1,0 +1,151 @@
+/* ------------Header-------------------- */
+.header {
+    background-image:  linear-gradient(45deg,rgba(101, 105, 102, 0.42),rgba(144, 144, 136, 0.59)),url('./img/anhbia.jpg');
+    background-size: cover;
+    position: relative;
+    height: 760px;
+}
+.header-menu{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar-default{
+    background-color:#ffffff00;
+    border-color: #ffffff00;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+}
+.menu li{
+    padding-left: 5px 0;
+    line-height: 40px;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 20px;
+}
+.menu a:hover{
+    color:#f3ff37;
+    border-bottom: 2px solid #f3ff37;
+}
+.text h2{
+    position: absolute;
+    color: white;
+    top: 300px;
+    z-index: 1;
+    margin-left: 500px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.text-small h4{
+    position: absolute;
+    color: White;
+    top: 370px;
+    margin-left: 450px;
+    font-size: 30px;
+}
+/* ---------body------------- */
+.info {
+	padding: 30px;
+}
+.main{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.main2{
+	font-size: 20px;
+	text-align: center;
+	width: 880px;
+	margin-left: 308px;
+}
+.info img{
+	padding: 20px;
+	width: 400px;
+	height: 400px;
+}
+/* ----------footer---------- */
+footer {
+    padding: 100px 0;
+}
+
+.btn-primary {
+    border-radius: 50px;
+}
+
+.title-form {
+    padding: 50px 0;
+}
+
+.aboutme {
+    padding: 100px 0;
+}
+
+.a {
+    margin: 15px 0;
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.page-footer {
+    background-color: #222222;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #181818;
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: #fff;
+}
+
+footer.page-footer a {
+    color: #fff;
+}
+.col-md-3{
+    text-align: left;
+}
+.hr{
+    background-color: white;
+    margin-left: 0;
+}
+
+.icon {
+    width: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    margin: 15px;
+    text-align: center;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background: #fff;
+    color: #333;
+}
+.footer{
+    background-color: rgb(27, 23, 23);
+    font-size: 17px;
+    color: white;
+    padding: 12px;
+    display: block;
+}
+.page-footer p{
+    text-align: left;
+}

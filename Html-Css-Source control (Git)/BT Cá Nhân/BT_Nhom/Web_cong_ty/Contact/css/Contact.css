@@ -1,0 +1,202 @@
+.header{
+    background-image:  linear-gradient(45deg,rgba(101, 105, 102, 0.42),rgba(144, 144, 136, 0.59)),url('../img/bia1.jpg');
+    background-size: cover;
+    position: relative;
+    height: 360px;
+}
+.header-menu{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #ffffff00;
+}
+.navbar-default{
+    background-color:#ffffff00;
+    border-color: #ffffff00;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+}
+.menu li{
+    padding-left: 5px 0;
+    line-height: 40px;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 20px;
+}
+.menu a:hover{
+    color: #f3ff37;
+    border-bottom: 2px solid  #f3ff37;
+}
+.text h2{
+    position: absolute;
+    color: white;
+    top: 150px;
+    z-index: 1;
+    margin-left: 440px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.text-small h4{
+    position: absolute;
+    color: White;
+    top: 223px;
+    margin-left: 340px;
+    font-size: 30px;
+}
+/* --------Info----------- */
+.info{
+    padding: 100px;
+    position: relative;
+    font-size: 14px;
+    z-index: 20;
+}
+.contact-info{
+    border: 2px solid springgreen;
+    text-align: center;
+}
+.contact-info .main{
+    font-size: 30px;
+    color:rgb(240, 25, 10);
+    background-color:springgreen ;
+    width: 220px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 75px;
+    margin: 0 auto;
+}
+.main2{
+    padding: 38px;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 245px;
+}
+/* -----------Form-contact----------- */
+.form-contact{
+}
+
+.form-contact .map{
+    width: 700px;
+    padding: 50px;
+}
+.form-contact .map iframe{
+    width: 550px;
+    height: 400px;
+}
+.info2{
+    border: 2px solid #9f969f4a;
+    width: 450px;
+    margin-left: 100px;
+    height: 400px;
+}
+.info2 input,textarea{
+    width: 400px;
+    height: 35px;
+    line-height: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ .info2 label{
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.info2 textarea{
+    height: 90px;
+}
+.info2 .button{
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    background-color: #214a9f;
+    color: white;
+    border-radius: 10px;
+}
+/* ---------footer------------- */
+footer {
+    padding: 100px 0;
+}
+
+.btn-primary {
+    border-radius: 50px;
+}
+
+.title-form {
+    padding: 50px 0;
+}
+
+.aboutme {
+    padding: 100px 0;
+}
+
+.a {
+    margin: 15px 0;
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.page-footer {
+    background-color: #222222;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #181818;
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: #fff;
+}
+
+footer.page-footer a {
+    color: #fff;
+}
+.col-md-3{
+    text-align: left;
+}
+.hr{
+    background-color: white;
+    margin-left: 0;
+}
+
+.icon {
+    width: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    margin: 15px;
+    text-align: center;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background: #fff;
+    color: #333;
+}
+.footer{
+    background-color: rgb(27, 23, 23);
+    font-size: 17px;
+    color: white;
+    padding: 12px;
+    display: block;
+}
+.page-footer p{
+    text-align: left;
+}
