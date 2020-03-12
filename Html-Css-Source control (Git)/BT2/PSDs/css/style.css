@@ -13,9 +13,17 @@ footer.page-footer a {
     color: #fff;
 }
 
-.fa-facebook-f,
-.fb {
-    width: 30px;
+/* .icon {
+    font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: #365493;
+    color: white;
+} */
+.fa-facebook-f {
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
@@ -27,9 +35,7 @@ footer.page-footer a {
     color: white;
 }
 
-.fa-twitter,
-.tw {
-    width: 30px;
+.fa-twitter {
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
@@ -41,9 +47,7 @@ footer.page-footer a {
     color: white;
 }
 
-.fa-google-plus-g,
-.gg {
-    width: 30px;
+.fa-google-plus-g {
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
@@ -55,9 +59,7 @@ footer.page-footer a {
     color: white;
 }
 
-.fa-linkedin-in,
-.in {
-    width: 30px;
+.fa-linkedin-in {
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
@@ -65,6 +67,7 @@ footer.page-footer a {
     -moz-border-radius: 35px;
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
-    background-color: #cb3527;
+    background-color: #e61700;
     color: white;
 }
+
