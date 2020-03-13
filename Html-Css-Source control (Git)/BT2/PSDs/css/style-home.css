@@ -1,65 +1,14 @@
-.font-italic {
-    font-style: italic !important;
+.card-img-overlay {
+    position: absolute;
+
 }
 
-/* .card {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    /* border: 1px solid rgba(0,0,0,.125); */
-    /* border-radius: .25rem; */
-} */
+.renewal {
 
-.text-white {
-    color: #fff !important;
 }
 
-.bg-dark {
-    background-color: #343a40 !important;
-}
-
-.carousel-area {
-    background-color: #e5eaf7;
-    padding: 100px 0;
-}
-
-.carousel-indicators li {
-    width: 20px;
-    height: 20px;
-    background-color: #7492ec;
-    border-radius: 100%;
-}
-
-.carousel-item {
-    background-color: #e5eaf7;
-    height: 300px;
-    width: 100%;
-}
-
-.carousel-inner p {
-    color: #99aade;
-}
-
-.text-carousel {
-    color: #7492ec;
-}
-
-.text-carousel p {
-    color: #99aade;
-}
-
-.contact {
+.col-logo {
     padding: 50px 0;
-    background-color: #fff;
 }
 
 footer.page-footer .footer-copyright {
