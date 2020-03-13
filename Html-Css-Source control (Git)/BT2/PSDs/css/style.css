@@ -1,5 +1,30 @@
 .font-italic {
-    font-style: italic!important;
+    font-style: italic !important;
+}
+
+/* .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /* border-radius: .25rem; */
+} */
+
+.text-white {
+    color: #fff !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
 }
 
 .carousel-area {
@@ -52,22 +77,7 @@ footer.page-footer a {
     color: #fff;
 }
 
-<<<<<<< HEAD
-/* .icon {
-    font-size: 20px;
-    border-radius: 35px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    -ms-border-radius: 35px;
-    -o-border-radius: 35px;
-    background-color: #365493;
-    color: white;
-} */
 .fa-facebook-f {
-=======
-.fa-facebook-f,
-.fb {
->>>>>>> 6f7e6c35ae00b55bebf05e442da363d619f2807c
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
@@ -79,12 +89,7 @@ footer.page-footer a {
     color: white;
 }
 
-<<<<<<< HEAD
 .fa-twitter {
-=======
-.fa-twitter,
-.tw {
->>>>>>> 6f7e6c35ae00b55bebf05e442da363d619f2807c
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
@@ -96,12 +101,7 @@ footer.page-footer a {
     color: white;
 }
 
-<<<<<<< HEAD
 .fa-google-plus-g {
-=======
-.fa-google-plus-g,
-.gg {
->>>>>>> 6f7e6c35ae00b55bebf05e442da363d619f2807c
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
@@ -113,12 +113,7 @@ footer.page-footer a {
     color: white;
 }
 
-<<<<<<< HEAD
 .fa-linkedin-in {
-=======
-.fa-linkedin-in,
-.in {
->>>>>>> 6f7e6c35ae00b55bebf05e442da363d619f2807c
     width: 30px;
     font-size: 20px;
     border-radius: 35px;
@@ -129,4 +124,3 @@ footer.page-footer a {
     background-color: #e61700;
     color: white;
 }
-
