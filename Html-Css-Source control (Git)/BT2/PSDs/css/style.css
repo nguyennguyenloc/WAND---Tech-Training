@@ -1,0 +1,78 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #7492ec;
+}
+
+.font-italic {
+    font-style: italic !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #181818;
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: white;
+}
+
+footer.page-footer a {
+    color: #fff;
+}
+
+.fa-facebook-f {
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: #365493;
+    color: white;
+}
+
+.fa-twitter {
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: #33ccff;
+    color: white;
+}
+
+.fa-google-plus-g {
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: #d44132;
+    color: white;
+}
+
+.fa-linkedin-in {
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: #e61700;
+    color: white;
+}
