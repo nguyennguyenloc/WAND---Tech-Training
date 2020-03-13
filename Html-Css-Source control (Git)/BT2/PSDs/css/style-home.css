@@ -1,10 +1,65 @@
-.card-img-overlay {
-    position: absolute;
+.navbar-dark .navbar-nav .nav-link {
+    color: #7492ec;
+}
 
+.quoute-text {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-grid,
+.about {
+    padding: 50px 0;
+}
+
+
+/* .icon {
+    text-align: center;
+    border: 5px solid white;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
+
+.fa-hand-point-down {
+    border: 5px solid white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.card-text-a {
+    padding: 15px;
+}
+
+.card-text-a,
+.card-text1 {
+    color: #fff;
+}
+
+.people {
+    margin: 50px 0;
+}
+
+.people li {
+    margin: 0 10px 10px 0;
 }
 
 .renewal {
-
+    padding: 200px 0;
 }
 
 .col-logo {

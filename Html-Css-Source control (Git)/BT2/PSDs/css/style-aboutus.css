@@ -1,3 +1,7 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #7492ec;
+}
+
 .font-italic {
     font-style: italic !important;
 }
