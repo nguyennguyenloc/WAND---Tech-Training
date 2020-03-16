@@ -218,7 +218,7 @@
 				- gap 
 				- row 
 				- template
-
+	scrool(thanh cuộn ngang): - overflow: auto/scroll/hidden/visible;
 	ĐƠN VỊ ĐO:
 
 	- %

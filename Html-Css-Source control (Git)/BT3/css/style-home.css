@@ -2,19 +2,78 @@
     font-size: 13px;
 }
 
+.a {
+    background-color: #f6f6f6;
+}
+
+.rectrapezoid-first {
+    border-bottom: 30px solid #eeeeee;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 50px;
+}
+
+.number {
+    text-align: center;
+}
+
+.rectrapezoid-two {
+    border-bottom: 30px solid #498acf;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 50px;
+}
+
 .quoute-text .row {
     padding: 30px 0;
 }
+
 .carousel-item {
     height: 300px;
     width: 100%;
 }
-.masthead{
+
+.masthead {
     padding-bottom: 100px;
 }
+
 .col-logo {
-    padding:50px;
+    padding: 50px;
 }
+
+i {
+    color: #498acf;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.main {
+    background-color: #ffffff;
+    width: 100%;
+    height: 110px;
+    overflow: auto;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 footer.page-footer .footer-copyright {
     overflow: hidden;
     color: rgba(255, 255, 255, 0.6);
