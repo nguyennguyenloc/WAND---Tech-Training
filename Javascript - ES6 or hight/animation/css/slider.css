@@ -1,0 +1,16 @@
+.carousel-area {
+    background-color: #505cfd;
+    padding: 100px 0;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    background-color: red;
+    height: 300px;
+    width: 100%;
+}

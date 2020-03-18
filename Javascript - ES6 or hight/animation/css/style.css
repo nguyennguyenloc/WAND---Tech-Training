@@ -1,0 +1,166 @@
+/* .information {
+    position: relative;
+    padding: 100px 0;
+    z-index: 999;
+    background-image: url("../img/sec-contact.png");
+}
+
+.form-control {
+    border: 2px solid #6e6e6e;
+    border-radius: 0;
+    margin-top: 30px;
+    background: transparent;
+    color: #ffffff;
+} */
+
+.carousel-area {
+    background-color: #505cfd;
+    padding: 100px 0;
+}
+
+.carousel-item {
+    background-color: #505cfd;
+    height: 300px;
+    width: 100%;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.input-about {
+    font-size: 16px;
+    font-style: italic;
+    width: 50%;
+    margin: auto;
+}
+
+section.menu {
+    background-image: url("../img/sec-menu.png");
+}
+
+section.sec-contact {
+    position: relative;
+    padding: 100px 0;
+    z-index: 999;
+    background-image: url("../img/sec-contact.png");
+}
+
+#sec-contact .form-control {
+    border: 2px solid #6e6e6e;
+    border-radius: 0;
+    margin-top: 30px;
+    background: transparent;
+    color: #ffffff;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #ffffff;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ffffff;
+}
+
+.sec-contact .form-control::placeholder {
+    color: #ffffff;
+}
+
+.sec-contact .form-control::placeholder {
+    color: #ffffff;
+}
+
+.btn-send {
+    background: #f6cb86;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    line-height: 50px;
+    color: #6d5227;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #181818;
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: white;
+}
+
+footer.page-footer a {
+    color: #fff;
+}
+
+footer.page-footer .text-uppercase {
+    margin-top: 20px;
+}
+
+.fa-facebook-f {
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: #365493;
+    color: white;
+}
+
+.fa-twitter {
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: #33ccff;
+    color: white;
+}
+
+.fa-google-plus-g {
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: #d44132;
+    color: white;
+}
+
+.fa-linkedin-in {
+    width: 30px;
+    font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background-color: #e61700;
+    color: white;
+}

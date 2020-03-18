@@ -44,16 +44,16 @@
         padding: 100px 0;
     }
     
-    .carousel-indicators li {
-        width: 20px;
-        height: 20px;
-        border-radius: 100%;
-    }
-    
     .carousel-item {
         background-color: #505cfd;
         height: 300px;
         width: 100%;
+    }
+    
+    .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
     }
     
     footer {
