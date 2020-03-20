@@ -1,33 +1,47 @@
-/* .information {
-    position: relative;
-    padding: 100px 0;
-    z-index: 999;
-    background-image: url("../img/sec-contact.png");
+.bg-grid .col-sm {
+    border: 1px solid rgb(255, 230, 0);
+    background-color: white;
+    margin: 15px;
+    width: 374px;
 }
 
-.form-control {
-    border: 2px solid #6e6e6e;
-    border-radius: 0;
-    margin-top: 30px;
-    background: transparent;
-    color: #ffffff;
-} */
+.bg-grid {
+    padding: 50px;
+}
+
+.number,
+.fa-book-open {
+    color: rgb(255, 230, 0);
+}
+
+.img {
+    margin: 100px auto;
+}
 
 .carousel-area {
-    background-color: #505cfd;
+    background-color: #fff;
     padding: 100px 0;
 }
 
 .carousel-item {
-    background-color: #505cfd;
-    height: 300px;
+    background-color: #fff;
+    height: 400px;
     width: 100%;
 }
 
 .carousel-indicators li {
     width: 20px;
     height: 20px;
+    background-color: rgb(100, 96, 96);
     border-radius: 100%;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.fa-star {
+    color: orange;
 }
 
 .input-about {
@@ -46,6 +60,8 @@ section.sec-contact {
     padding: 100px 0;
     z-index: 999;
     background-image: url("../img/sec-contact.png");
+    background-repeat: repeat;
+    background-position: center;
 }
 
 #sec-contact .form-control {
