@@ -1,0 +1,16 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.nav-header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}

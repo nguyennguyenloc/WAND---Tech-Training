@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/js.js">
+    <link rel="stylesheet" href="css/fontawesome-free-5.12.1-web/fontawesome-free-5.12.1-web/css/all.min.css">
+    <style>
+        #myDIV {
+            position: relative;
+            animation: mymove 1s infinite;
+        }
+        /* Chrome, Safari, Opera */
+        
+        @keyframes mymove {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 200px;
+            }
+        }
+        
+        @keyframes mynewmove {
+            from {
+                top: 0px;
+            }
+            to {
+                top: 200px;
+            }
+        }
+        
+        #myDIV1 {
+            position: relative;
+            animation: mymove1 1s infinite;
+        }
+        /* Chrome, Safari, Opera */
+        
+        @keyframes mymove1 {
+            from {
+                left: 0px;
+            }
+            to {
+                left: -40px;
+            }
+        }
+        
+        @keyframes mynewmove1 {
+            from {
+                top: 0px;
+            }
+            to {
+                top: -40px;
+            }
+        }
+        
+        #my {
+            overflow: auto;
+            transition: all 2s;
+        }
+        
+        #my:hover {
+            width: 100%;
+            height: 300px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation-->
+    <div class="nav-header ">
+
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-dark navbar-about ">
+                <div class="text-md-left" id="myIV" onclick="myFunction()">
+                    <img src="img/top-1.png">
+                </div>
+                <!-- <div class="container">
+
+                    <div class="row"> -->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                          </button>
+                <!-- <div class="col-3"> -->
+                <div class="collapse navbar-collapse w-50 " id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- </div>
+                        <div class="col-6 "> -->
+                <img src="img/logo-i.png" alt="logtcom" height="100">
+                <!-- </div>
+                        <div class="col-3 "> -->
+                <div class="collapse navbar-collapse w-50" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto text-right">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                    </ul>
+                    <!-- </div> -->
+                </div>
+            </nav>
+            <div class="text-right" id="myIV1" onclick="myFunction()">
+                <img src="img/top-4.png">
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    </div>
+    <!-- Navigation-->
+
+    <!-------------->
+    <header class="masthead">
+        <div class="card bg-dark text-white">
+            <img src="img/bg-top.png" class="card-img" alt="...">
+            <div class="container card-img-overlay">
+                <div class="animation-image-header">
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="text-left" id="myDI" onclick="myFunction()">
+                            <img src="img/top-3.png">
+                        </div>
+                    </div>
+                    <div class="col-sm-8 text-center">
+
+                        <h1>Welcome To Restaurant</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <!-- <div class="container row">
+                    <div class="col-4">
+                        <div class="" id="myDV" onclick="myFunction()"><img src="img/top-2.png"></div>
+                    </div>
+                    <div class=" col-4 text-center about-img">
+                        <div class="text-white">
+                            <h1>Welcome To Restaurant</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                            <div onmouseover="mOver(this)" onmouseout="mOut(this)" id="" class="btn btn-warning font-weight-bold" href="#" role="button">Book A Table</div>
+                            <script>
+                                function mOver(obj) {
+                                    obj.innerHTML = "Booking!"
+                                }
+
+                                function mOut(obj) {
+                                    obj.innerHTML = "Book A Table"
+                                }
+                            </script>
+                            <div class="" id="myDV1" onclick="myFunction()"><img src="img/top-6.png"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <!-- <div class="" id="myDIV1" onclick="myFunction()"><img src="img/top-6.png"></div> -->
+
+                <!-- <div class="" id="myDV1" onclick="myFunction()"><img src="img/top-5.png"></div> -->
+            </div>
+        </div> -->
+        </div>
+        </div>
+        </div>
+    </header>
+    <!--About Me-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
