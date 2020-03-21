@@ -11,12 +11,182 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="script.js">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/js.js">
     <link rel="stylesheet" href="css/fontawesome-free-5.12.1-web/fontawesome-free-5.12.1-web/css/all.min.css">
-
+    <style>
+        #myDIV {
+            position: relative;
+            animation: mymove 1s infinite;
+        }
+        /* Chrome, Safari, Opera */
+        
+        @keyframes mymove {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 200px;
+            }
+        }
+        
+        @keyframes mynewmove {
+            from {
+                top: 0px;
+            }
+            to {
+                top: 200px;
+            }
+        }
+        
+        #myDIV1 {
+            position: relative;
+            animation: mymove1 1s infinite;
+        }
+        /* Chrome, Safari, Opera */
+        
+        @keyframes mymove1 {
+            from {
+                left: 0px;
+            }
+            to {
+                left: -40px;
+            }
+        }
+        
+        @keyframes mynewmove1 {
+            from {
+                top: 0px;
+            }
+            to {
+                top: -40px;
+            }
+        }
+        
+        #my {
+            overflow: auto;
+            transition: all 2s;
+        }
+        
+        #my:hover {
+            width: 100%;
+            height: 300px;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Navigation-->
+    <div class="nav-header ">
+        <nav class="navbar navbar-expand-sm navbar-dark navbar-about ">
+            <div class="container">
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse w-50 " id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DỊCH VỤ</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <img src="img/logo-i.png" alt="logtcom" height="100">
+
+                <div class="collapse navbar-collapse w-50" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto text-right">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DỊCH VỤ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navigation-->
+
+    <!-------------->
+    <header class="masthead">
+        <div class="card bg-dark text-white">
+            <img src="img/bg-top.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <div class="animation-image-header">
+                    <div class="text-md-left" id="myDIV" onclick="myFunction()">
+                        <img src="img/top-1.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="" id="myDIV" onclick="myFunction()"><img src="img/top-2.png"></div>
+                    </div>
+                    <div class="col-4 about-img">
+                        <div class="text-white">
+                            <h1>Welcome To Restaurant</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                            <div onmouseover="mOver(this)" onmouseout="mOut(this)" id="" class="btn btn-warning font-weight-bold" href="#" role="button">Book A Table</div>
+                            <script>
+                                function mOver(obj) {
+                                    obj.innerHTML = "Booking!"
+                                }
+
+                                function mOut(obj) {
+                                    obj.innerHTML = "Book A Table"
+                                }
+                            </script>
+                            <div class="" id="myDIV1" onclick="myFunction()"><img src="img/top-6.png"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="" id="myDIV1" onclick="myFunction()"><img src="img/top-5.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <!--About Me-->
+
     <!--about us-->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-6"><img src="img/about-1a.png" alt=""></div>
+                            <div class="col-6"><img src="img/about-2a.png" alt=""></div>
+                        </div>
+                        <img src="img/about-3a.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-5">
+                    <div class="row">
+                        <h1 class="font-weight-bold">About Us</h1>
+                        <p class="text-secondary">Opening Hour 8:00 Am - 10:00 PM, every day week</p>
+                        <p class="text-muted">What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                            it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br>It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--about us-->
     <!--column-img-->
     <div class="bg-grid " style="background-image: url(img/sec-features1.png);">
@@ -98,8 +268,29 @@
         <div class="row">
             <div class="col-6">
                 <div class="row">
-                    <div class="col-6"><img src="img/about-1a.png" alt="" width="100%" height="350px"></div>
-                    <div class="col-6"><img src="img/about-1a.png" alt="" width="100%" height="350px"></div>
+                    <!-- <div class="col-6"><img src="img/about-1a.png" alt="" width="100%" height="350px"></div> -->
+                    <div class="col-6">
+                        <div id="my">
+                            <h1><img src="img/about-1a.png" alt="" width="100%" height="350px"></h1>
+                        </div>
+
+                        <script>
+                            function myFunction() {
+                                document.getElementById("my").style.transitionProperty = "width, height";
+                            }
+                        </script>
+                    </div>
+                    <div class="col-6">
+                        <div id="my">
+                            <h1><img src="img/about-1a.png" alt="" width="100%" height="350px"></h1>
+                        </div>
+
+                        <script>
+                            function myFunction() {
+                                document.getElementById("my").style.transitionProperty = "width, height";
+                            }
+                        </script>
+                    </div>
                     <div class="col-12"><img src="img/about-1a.png" alt="" width="100%" height="650px"></div>
                 </div>
             </div>
@@ -119,16 +310,35 @@
 
     <!--library-->
     <!--Carousel-->
-    <div class="carousel-area ">
-        <div class="container ">
-            <div id="carouselExampleIndicators " class="carousel slide " data-ride="carousel ">
-                <ol class="carousel-indicators ">
-                    <li data-target="#carouselExampleIndicators " data-slide-to="0 " class="active "></li>
-                    <li data-target="#carouselExampleIndicators " data-slide-to="1 "></li>
-                    <li data-target="#carouselExampleIndicators " data-slide-to="2 "></li>
+    <div class="carousel-area">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner ">
+                <div class="carousel-inner">
                     <div class="carousel-item active ">
+                        <div class="carousel-caption text-dark ">
+                            <ul class="list-inline ">
+                                <li class="list-inline-item "><i class="fas fa-star "></i></li>
+                                <li class="list-inline-item "><i class="fas fa-star "></i></li>
+                                <li class="list-inline-item "><i class="fas fa-star "></i></li>
+                                <li class="list-inline-item "><i class="fas fa-star "></i></li>
+                                <li class="list-inline-item "><i class="far fa-star "></i></li>
+                            </ul>
+                            <p class="font-italic font-weight-bold h4 ">So Many Features</p>
+                            <h5 class="text-muted ">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                a type specimen book."</h5>
+                            <div class="chip">
+                                <img src="img/tes-1.jpg" alt="">
+                            </div>
+                            <p class="font-weight-bold">Svetlin Denlov</p>
+                            <p class="h6">Lorem Ipsum</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
                         <div class="carousel-caption text-dark ">
                             <ul class="list-inline ">
                                 <li class="list-inline-item "><i class="fas fa-star "></i></li>
@@ -145,18 +355,15 @@
                             <p class="h6">Lorem Ipsum</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="carousel-caption text-dark ">
-                            <p class="font-italic font-weight-bold h4">So Many Features</p>
-                            <h5 class="text-muted">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book. "</h5>
-                            <img src="img/tes-1.jpg " alt=" ">
-                            <p class="font-weight-bold ">Svetlin Denlov</p>
-                            <p class="h6 ">Lorem Ipsum</p>
-                        </div>
-                    </div>
                     <div class="carousel-item ">
                         <div class="carousel-caption text-dark ">
+                            <ul class="list-inline ">
+                                <li class="list-inline-item "><i class="fas fa-star "></i></li>
+                                <li class="list-inline-item "><i class="fas fa-star "></i></li>
+                                <li class="list-inline-item "><i class="fas fa-star "></i></li>
+                                <li class="list-inline-item "><i class="fas fa-star "></i></li>
+                                <li class="list-inline-item "><i class="far fa-star "></i></li>
+                            </ul>
                             <p class="font-italic font-weight-bold h4 ">So Many Features</p>
                             <h5 class="text-muted ">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
                                 a type specimen book."</h5>
@@ -390,6 +597,7 @@
 
 
     <!--input-->
+
     <!--Google map-->
     <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
         <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -405,7 +613,7 @@
             <div class="row">
 
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <div class="col-sm-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                     <!-- Content -->
                     <h6 class="text-uppercase font-weight-bold">Company name</h6>
@@ -455,11 +663,51 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mb-4">
+                <div class="col-sm-3 col-lg-3 col-xl-2 mx-auto mb-4">
 
                     <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-                    <div class="row">
+                    <div class="row" style="font-size: 10px;">
+                        <div class="col-5">Monday</div>
+                        <div class="col-2">></div>
+                        <div class="col-5">11am-2pm</div>
+                    </div>
+                    <div class="row" style="font-size: 10px;">
+                        <div class="col-5">Monday</div>
+                        <div class="col-2">></div>
+                        <div class="col-5">11am-2pm</div>
+                    </div>
+                    <div class="row" style="font-size: 10px;">
+                        <div class="col-5">Monday</div>
+                        <div class="col-2">></div>
+                        <div class="col-5">11am-2pm</div>
+                    </div>
+                    <div class="row" style="font-size: 10px;">
+                        <div class="col-5">Monday</div>
+                        <div class="col-2">></div>
+                        <div class="col-5">11am-2pm</div>
+                    </div>
+                    <div class="row" style="font-size: 10px;">
+                        <div class="col-5">Monday</div>
+                        <div class="col-2">></div>
+                        <div class="col-5">11am-2pm</div>
+                    </div>
+                    <div class="row" style="font-size: 10px;">
+                        <div class="col-5">Monday</div>
+                        <div class="col-2">></div>
+                        <div class="col-5">11am-2pm</div>
+                    </div>
+                    <div class="row" style="font-size: 10px;">
+                        <div class="col-5">Monday</div>
+                        <div class="col-2">></div>
+                        <div class="col-5">11am-2pm</div>
+                    </div>
+                    <div class="row" style="font-size: 10px;">
+                        <div class="col-5">Sunday</div>
+                        <div class="col-2">></div>
+                        <div class="col-5">11am-2pm</div>
+                    </div>
+                    <!-- <div class="row">
                         <div class="col-sm-4">
                             <p>
                                 Monday
@@ -507,14 +755,14 @@
                                 <a href="#!">Close</a>
                             </p>
                         </div>
-                    </div>
+                    </div> -->
 
 
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2">
+                <div class="col-sm-3 col-lg-2 col-xl-2">
 
                     <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Products</h6>
@@ -548,17 +796,14 @@
                 </div>
                 <!-- Grid column -->
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <div class="col-sm-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
                     <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
                     <br>
-                    <p>
-                        <div class="map-responsive">
-                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="270" height="171" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                    </p>
-
+                    <p>The backface-visibility and backfaceVisibility properties.</p>
+                    <div class="btn btn-lg btn-block btn-secondary"> Your Mail</div>
+                    <div class="btn btn-lg btn-block btn-warning">Your Mail</div>
                 </div>
                 <!-- Grid column -->
 
@@ -620,6 +865,5 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-
 
 </html>
