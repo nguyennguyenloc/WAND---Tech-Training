@@ -19,13 +19,16 @@
 }
 
 
-/* .imga .col-4 {
-    border-style: double;
+/* .col-md-4 {
+    padding-left: 0px !important;
+}
+
+.col-md-4 {
+    padding-right: 0px !important;
 } */
 
-.imga .col-4 img {
-    width: 370px;
-    height: 270px;
+.col-md-4 .c {
+    padding-left: 0px !important;
 }
 
 .carousel-area {
