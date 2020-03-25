@@ -14,8 +14,18 @@
     color: rgb(255, 230, 0);
 }
 
-.img {
+.imga {
     margin: 100px auto;
+}
+
+
+/* .imga .col-4 {
+    border-style: double;
+} */
+
+.imga .col-4 img {
+    width: 370px;
+    height: 270px;
 }
 
 .carousel-area {
@@ -68,7 +78,8 @@
 }
 
 .about .col-5 {
-    padding: 10px 0 0 40px;
+    /* padding: 10px 0 0 40px; */
+    padding: 50px 0 0 50px;
 }
 
 .fa-star {
@@ -214,10 +225,4 @@ footer.page-footer .text-uppercase {
     -o-border-radius: 35px;
     background-color: #e61700;
     color: white;
-}
-
-@media only screen and (max-width: 600px) {
-    .animation-image-header {
-        display: none
-    }
 }
