@@ -61,38 +61,32 @@
                 top: -40px;
             }
         }
-        
-        #my {
-            overflow: auto;
-            transition: all 2s;
-        }
-        
-        #my:hover {
-            width: 100%;
-            height: 300px;
-            padding: 10px;
-        }
     </style>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Vollkorn:900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Navigation-->
     <div class="nav-header ">
         <nav class="navbar navbar-expand-sm navbar-dark navbar-about ">
-            <div class="container">
+            <div class="container" style="font-family: 'Open Sans', sans-serif;
+            font-family: 'Lobster', cursive;">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse w-50 " id="navbarResponsive">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">TRANG CHỦ</a>
+                            <a class="nav-link" href="#" style="font-size:18px">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GIỚI THIỆU</a>
+                            <a class="nav-link" href="#" style="font-size:18px">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">DỊCH VỤ</a>
+                            <a class="nav-link" href="#" style="font-size:18px">Gallery</a>
                         </li>
                     </ul>
                 </div>
@@ -102,13 +96,13 @@
                 <div class="collapse navbar-collapse w-50" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto text-right">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">TRANG CHỦ</a>
+                            <a class="nav-link" href="#" style="font-size:18px">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GIỚI THIỆU</a>
+                            <a class="nav-link" href="#" style="font-size:18px">Reservation</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">DỊCH VỤ</a>
+                            <a class="nav-link" href="#" style="font-size:18px">Blog</a>
                         </li>
                     </ul>
                 </div>
@@ -121,7 +115,8 @@
     <header class="Welcome">
         <div class="card bg-dark text-white">
 
-            <img src="img/bg-top.png" class="card-img" alt="...">
+            <!-- <img src="img/bg-top.png" class="img-fluid" alt="..."> -->
+            <img src="img/bg-top.png" width="100%" alt="...">
 
             <div class="container card-img-overlay">
                 <div class="row">
@@ -131,9 +126,10 @@
                     </div>
                     <div class="col-6">
                         <div class="text-white">
-                            <h1 class="text-center">Welcome To Restaurant</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                            <div onmouseover="mOver(this)" onmouseout="mOut(this)" id="" class="btn btn-warning font-weight-bold" href="#" role="button">Book A Table</div>
+                            <h1 class="text-center" style="font-family: 'Lobster', cursive;font-size:55px">Welcome To Restaurant</h1>
+                            <p style="font-family: 'Lobster', cursive;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                            <div onmouseover="mOver(this)" onmouseout="mOut(this)" id="" class="btn btn-warning" href="#" role="button" style="font-family: 'Open Sans', sans-serif;
+                            font-family: 'Lobster', cursive;">Book a Table</div>
                             <script>
                                 function mOver(obj) {
                                     obj.innerHTML = "Booking!"
@@ -189,9 +185,11 @@
                 </div>
                 <div class="col-5">
                     <div class="row">
-                        <h1 class="font-weight-bold">About Us</h1>
-                        <p class="text-secondary">Opening Hour 8:00 Am - 10:00 PM, every day week</p>
-                        <p class="text-muted">What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                        <h1 class="font-weight-bold" style="font-family: 'Lobster', cursive;">About Us</h1>
+                        <p class="text-secondary" style="font-family: 'Lobster', cursive;">Opening Hour 8:00 Am - 10:00 PM, every day week</p>
+                        <p class="text-muted" style="font-family: 'Open Sans', sans-serif;
+                        font-family: 'Lobster', cursive;
+                        font-family: 'Lato', sans-serif;">What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                             it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets
                             containing Lorem Ipsum passages.<br> And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted
                             by
@@ -209,19 +207,19 @@
                 <div class="row text-center">
                     <div class="col-sm img-fluid">
                         <i class="fas fa-book-open"></i>
-                        <h4>Lorem Ipsum</h4>
+                        <h4 style="font-family: 'Lobster', cursive;">Lorem Ipsum</h4>
                         <p>Lorem Ipsum is simply dummy</p>
                         <p class="number">43543564654</p>
                     </div>
                     <div class="col-sm img-fluid">
                         <i class="fas fa-book-open"></i>
-                        <h4>Lorem Ipsum</h4>
+                        <h4 style="font-family: 'Lobster', cursive;">Lorem Ipsum</h4>
                         <p>Lorem Ipsum is simply dummy</p>
                         <p class="number">43543564654</p>
                     </div>
                     <div class="col-sm img-fluid">
                         <i class="fas fa-book-open"></i>
-                        <h4>Lorem Ipsum</h4>
+                        <h4 style="font-family: 'Lobster', cursive;">Lorem Ipsum</h4>
                         <p>Lorem Ipsum is simply dummy</p>
                         <p class="number">43543564654</p>
                     </div>
@@ -230,19 +228,19 @@
                 <div class=" row text-center">
                     <div class="col-sm img-fluid">
                         <i class="fas fa-book-open"></i>
-                        <h4>Lorem Ipsum</h4>
+                        <h4 style="font-family: 'Lobster', cursive;">Lorem Ipsum</h4>
                         <p>Lorem Ipsum is simply dummy</p>
                         <p class="number">43543564654</p>
                     </div>
                     <div class="col-sm img-fluid">
                         <i class="fas fa-book-open"></i>
-                        <h4>Lorem Ipsum</h4>
+                        <h4 style="font-family: 'Lobster', cursive;">Lorem Ipsum</h4>
                         <p>Lorem Ipsum is simply dummy</p>
                         <p class="number">43543564654</p>
                     </div>
                     <div class="col-sm img-fluid">
                         <i class="fas fa-book-open"></i>
-                        <h4>Lorem Ipsum</h4>
+                        <h4 style="font-family: 'Lobster', cursive;">Lorem Ipsum</h4>
                         <p>Lorem Ipsum is simply dummy</p>
                         <p class="number">43543564654</p>
                     </div>
@@ -346,14 +344,18 @@
                                 <li class="list-inline-item "><i class="fas fa-star "></i></li>
                                 <li class="list-inline-item "><i class="far fa-star "></i></li>
                             </ul>
-                            <p class="font-italic font-weight-bold h4 ">So Many Features</p>
-                            <h5 class="text-muted ">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                            <p style="font-family: 'Lobster', cursive;font-size:18px;">So Many Features</p>
+                            <h5 class="text-muted " style="font-size:14px;font-family: 'Open Sans', sans-serif;
+                            font-family: 'Lobster', cursive;
+                            font-family: 'Lato', sans-serif;">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
                                 a type specimen book."</h5>
                             <div class="chip">
                                 <img src="img/tes-1.jpg" alt="">
                             </div>
-                            <p class="font-weight-bold">Svetlin Denlov</p>
-                            <p class="h6">Lorem Ipsum</p>
+                            <p style="font-family: 'Roboto', sans-serif;font-style:SemiBold;font-size:14px">Svetlin Denlov</p>
+                            <p style="font-family: 'Open Sans', sans-serif;
+                            font-family: 'Lobster', cursive;
+                            font-family: 'Lato', sans-serif;font-size:12px;">Lorem Ipsum</p>
                         </div>
                     </div>
                     <div class="carousel-item ">
@@ -412,38 +414,60 @@
                 <div class="col-9">
                     <div class="row">
                         <div class="col-6">
-                            <p class="index font-weight-bold">Cold Appertisers</p>
+                            <p class="index" style="font-family: 'Lobster', cursive;font-size:24px">Cold Appertisers</p>
                             <hr>
-                            <div class="row">
+                            <div class="row" style="margin-top: 28px;margin-bottom: 21px;">
                                 <div class="col-9">
-                                    <p class="h5 text-dark">Lorem Ipsum is simply dummy text</p>
-                                    <p class="font-small text-muted">Lorem Ipsum is simply dummy text</p>
+                                    <p style="font-style:bold;font-family: 'Open Sans', sans-serif;
+                                    font-family: 'Lobster', cursive;
+                                    font-family: 'Lato', sans-serif;font-size:14px;color: #262626;">Lorem Ipsum is simply dummy text</p>
+                                    <p style="font-style:regular;font-family: 'Open Sans', sans-serif;
+                                    font-family: 'Lobster', cursive;
+                                    font-family: 'Lato', sans-serif;font-size:12px;color: #e0e0e0;">Lorem Ipsum is simply dummy text</p>
                                 </div>
-                                <div class="col-3">$26</div>
+                                <div class="col-3" style="font-family: 'Lobster', cursive;font-size:14px;color: #847053;">$26</div>
                             </div>
                             <hr>
                             <div class="row">
                                 <div class="col-9">
-                                    <p class="h5 text-dark">Lorem Ipsum is simply dummy text</p>
-                                    <p class="font-small text-muted">Lorem Ipsum is simply dummy text</p>
+                                    <p style="font-style:bold;font-family: 'Open Sans', sans-serif;
+                                    font-family: 'Lobster', cursive;
+                                    font-family: 'Lato', sans-serif;font-size:14px;color: #262626;">Lorem Ipsum is simply dummy text</p>
+                                    <p style="font-style:regular;font-family: 'Open Sans', sans-serif;
+                                    font-family: 'Lobster', cursive;
+                                    font-family: 'Lato', sans-serif;font-size:12px;color: #e0e0e0;">Lorem Ipsum is simply dummy text</p>
                                 </div>
-                                <div class="col-3">$26</div>
+                                <div class="col-3" style="font-family: 'Lobster', cursive;font-size:14px;color: #847053;">$26</div>
                             </div>
                             <hr>
                             <div class="row">
                                 <div class="col-9">
-                                    <p class="h5 text-dark">Lorem Ipsum is simply dummy text</p>
-                                    <p class="font-small text-muted">Lorem Ipsum is simply dummy text</p>
+                                    <p style="font-style:bold;font-family: 'Open Sans', sans-serif;
+                                    font-family: 'Lobster', cursive;
+                                    font-family: 'Lato', sans-serif;font-size:14px;color: #262626;">Lorem Ipsum is simply dummy text</p>
+                                    <p style="font-style:regular;font-family: 'Open Sans', sans-serif;
+                                    font-family: 'Lobster', cursive;
+                                    font-family: 'Lato', sans-serif;font-size:12px;color: #e0e0e0;">Lorem Ipsum is simply dummy text</p>
                                 </div>
-                                <div class="col-3">$26</div>
+                                <div class="col-3" style="font-family: 'Lobster', cursive;font-size:14px;color: #847053;margin-top:37px;">$26
+                                    <!-- <div class="row">
+                                        <div class="col-12"></div>
+                                        <div class="col-12"> $26</div>
+                                        <div class="col-12"></div>
+                                    </div> -->
+                                </div>
                             </div>
                             <hr>
                             <div class="row">
                                 <div class="col-9">
-                                    <p class="h5 text-dark">Lorem Ipsum is simply dummy text</p>
-                                    <p class="font-small text-muted">Lorem Ipsum is simply dummy text</p>
+                                    <p style="font-style:bold;font-family: 'Open Sans', sans-serif;
+                                    font-family: 'Lobster', cursive;
+                                    font-family: 'Lato', sans-serif;font-size:14px;color: #262626;">Lorem Ipsum is simply dummy text</p>
+                                    <p style="font-style:regular;font-family: 'Open Sans', sans-serif;
+                                    font-family: 'Lobster', cursive;
+                                    font-family: 'Lato', sans-serif;font-size:12px;color: #e0e0e0;">Lorem Ipsum is simply dummy text</p>
                                 </div>
-                                <div class="col-3">$26</div>
+                                <div class="col-3" style="font-family: 'Lobster', cursive;font-size:14px;color: #847053;">$26</div>
                             </div>
                             <hr>
                         </div>
